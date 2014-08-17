@@ -1,0 +1,4 @@
+GlyphWiki
+/BlueValues [-250 -250 1100 1100] def
+/StdHW [20] def
+/StdVW [60] def
