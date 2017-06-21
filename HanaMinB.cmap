@@ -5,7 +5,7 @@
 %%Title: (GlyphWiki-UTF32-H Adobe Identity 0)
 %%Version: 1.000
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2014 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2017 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
@@ -276,7 +276,7 @@ endcidrange
 <0002bf00> <0002bfff> 49186
 endcidrange
 
-19 begincidrange
+50 begincidrange
 <0002c000> <0002c0ff> 49442
 <0002c100> <0002c1ff> 49698
 <0002c200> <0002c2ff> 49954
@@ -292,10 +292,41 @@ endcidrange
 <0002cc00> <0002ccff> 52514
 <0002cd00> <0002cdff> 52770
 <0002ce00> <0002cea1> 53026
-<0002f800> <0002f8ff> 53188
-<0002f900> <0002f9ff> 53444
-<0002fa00> <0002fa1d> 53700
-<000e0100> <000e0108> 53730
+<0002ceb0> <0002ceff> 53188
+<0002cf00> <0002cfff> 53268
+<0002d000> <0002d0ff> 53524
+<0002d100> <0002d1ff> 53780
+<0002d200> <0002d2ff> 54036
+<0002d300> <0002d3ff> 54292
+<0002d400> <0002d4ff> 54548
+<0002d500> <0002d5ff> 54804
+<0002d600> <0002d6ff> 55060
+<0002d700> <0002d7ff> 55316
+<0002d800> <0002d8ff> 55572
+<0002d900> <0002d9ff> 55828
+<0002da00> <0002daff> 56084
+<0002db00> <0002dbff> 56340
+<0002dc00> <0002dcff> 56596
+<0002dd00> <0002ddff> 56852
+<0002de00> <0002deff> 57108
+<0002df00> <0002dfff> 57364
+<0002e000> <0002e0ff> 57620
+<0002e100> <0002e1ff> 57876
+<0002e200> <0002e2ff> 58132
+<0002e300> <0002e3ff> 58388
+<0002e400> <0002e4ff> 58644
+<0002e500> <0002e5ff> 58900
+<0002e600> <0002e6ff> 59156
+<0002e700> <0002e7ff> 59412
+<0002e800> <0002e8ff> 59668
+<0002e900> <0002e9ff> 59924
+<0002ea00> <0002eaff> 60180
+<0002eb00> <0002ebe0> 60436
+<0002f800> <0002f8ff> 60661
+<0002f900> <0002f9ff> 60917
+<0002fa00> <0002fa1d> 61173
+<0002fffe> <0002ffff> 61203
+<000e0100> <000e0108> 61205
 endcidrange
 
 endcmap
