@@ -1,4 +1,4 @@
-Hanazono Mincho AFDKO version
+Hanazono Mincho (HanaMin) Font AFDKO version
 =============================
 
 ## Overview
@@ -38,12 +38,14 @@ are not recommended for casual use.
 
 1. Hanazono Mincho A :: This mainly covers BMP Ideographs.
 2. Hanazono Mincho B :: This mainly covers SIP Ideographs.
+<!--
 3. Hanazono Mincho AX :: This is an extended version of Hanazono
    Mincho A, supporting GlyphWiki *uXXXX-itaiji-YYY*, *uXXXX-YY* and
    *kumimoji-XXXX* glyphs by using OpenType GSUB features "trad",
    "ssXX" and "ccmp" features.
 4. Hanazono Mincho BX :: This is an extended version of Hanazono
    Mincho B.
+-->
 
 ## Sample Screenshot
 
@@ -95,7 +97,9 @@ long time to build the fonts.)
     makeotf -newNameID4 -mf HanaMinB.fmndb -cs 1 -ci HanaMinB.ivs -ch HanaMinB.cmap \
         -f HanaMinB.hinted.raw -ff HanaMinB.features -o HanaMinB.otf
 
+<!--
 HanaMinAX, HanaMinBX can also be created like the above operations.
+-->
 
 ## Contribution
 
