@@ -5,8 +5,8 @@ Hanazono Mincho (HanaMin) Font AFDKO version
 
 This is an [AFDKO](http://www.adobe.com/devnet/opentype/afdko.html)
 version of [Hanazono Mincho](https://fonts.jp/) Fonts, covering *ALL*
-CJK Unified and Compatibility Idegraphs up to Extension E (ISO/IEC
-10646:2014).
+CJK Unified and Compatibility Idegraphs up to Extension F (ISO/IEC
+10646:2017).
 
 ## Description
 
@@ -18,7 +18,7 @@ ideographs and related characters.
 
 1. CJK Unified Ideograph URO (U+4E00 to U+9FFF)
 2. CJK Unified Ideograph Extension-A (U+3400 to U+4DFF)
-3. CJK Unified Ideograph Extension-B,C,D,E (U+20000 to U+2CAE1)
+3. CJK Unified Ideograph Extension-B,C,D,E,F (U+20000 to U+2EBE0)
 4. CJK Compabilitiy Ideographs (U+F900 to U+FAD9)
 5. CJK Compabilitiy Ideographs Supplement (U+2F800 to U+2FA1D)
 6. Ideographic Variations (Adobe-Japan1 and Hanyo-Denshi)
