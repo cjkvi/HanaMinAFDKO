@@ -8,6 +8,11 @@ version of [Hanazono Mincho](https://fonts.jp/) Fonts, covering *ALL*
 CJK Unified and Compatibility Idegraphs up to Extension G (ISO/IEC
 10646:2017) and IVD 2017-12-12.
 
+## Download
+
+Pre-built fonts can be download from
+[releases page](http://github.com/cjkvi/HanaMinAFDKO/releases).
+
 ## Description
 
 This prototypical version of Hanazono Mincho is created from
@@ -66,9 +71,6 @@ Included fonts have been confirmed to work properly with Windows,
 Macintosh and Linux.
 
 ## Install
-
-Pre-built fonts can be download from
-[releases page](http://github.com/cjkvi/HanaMinAFDKO/releases).
 
 This repository provides pre-built data for the font. Glyph data is
 provided as compressed
