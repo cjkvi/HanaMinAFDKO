@@ -2,11 +2,11 @@ FontName       (HanaMinB)
 FullName       (Hanazono Mincho B)
 FamilyName     (Hanazono Mincho B)
 Weight         Regular
-version        (7.072)
+version        (8.010)
 Registry       (Adobe)
 Ordering       (Identity)
 Supplement     0
-AdobeCopyright (Copyright 2002-2017 GlyphWiki PROJECT)
+AdobeCopyright (Copyright 2002-2018 GlyphWiki PROJECT)
 
 PreferOS/2TypoMetrics      true
 IsOS/2WidthWeigthSlopeOnly true

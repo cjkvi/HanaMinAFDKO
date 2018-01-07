@@ -5,8 +5,8 @@ Hanazono Mincho (HanaMin) Font AFDKO version
 
 This is an [AFDKO](http://www.adobe.com/devnet/opentype/afdko.html)
 version of [Hanazono Mincho](https://fonts.jp/) Fonts, covering *ALL*
-CJK Unified and Compatibility Idegraphs up to Extension F (ISO/IEC
-10646:2017).
+CJK Unified and Compatibility Idegraphs up to Extension G (ISO/IEC
+10646:2017) and IVD 2017-12-12.
 
 ## Description
 
@@ -37,7 +37,8 @@ There are currently four font families. Among them, AX and BX fonts
 are not recommended for casual use.
 
 1. Hanazono Mincho A :: This mainly covers BMP Ideographs.
-2. Hanazono Mincho B :: This mainly covers SIP Ideographs.
+2. Hanazono Mincho B :: This mainly covers Extension B Ideographs.
+3. Hanazono Mincho C :: This mainly covers Extension C to up and SIP Compatibility Ideographs.
 <!--
 3. Hanazono Mincho AX :: This is an extended version of Hanazono
    Mincho A, supporting GlyphWiki *uXXXX-itaiji-YYY*, *uXXXX-YY* and
@@ -96,6 +97,12 @@ long time to build the fonts.)
     autohint -r -q HanaMinB.hinted.raw
     makeotf -newNameID4 -mf HanaMinB.fmndb -cs 1 -ci HanaMinB.ivs -ch HanaMinB.cmap \
         -f HanaMinB.hinted.raw -ff HanaMinB.features -o HanaMinB.otf
+
+    mergeFonts -cid HanaMinC.cidinfo HanaMinC.raw HanaMinC.cidmap HanaMinC.pfa
+    perl $AFDKO/hintcidfont.pl hintparam.txt < HanaMinC.raw > HanaMinC.hinted.raw
+    autohint -r -q HanaMinC.hinted.raw
+    makeotf -newNameID4 -mf HanaMinC.fmndb -cs 1 -ci HanaMinC.ivs -ch HanaMinC.cmap \
+        -f HanaMinC.hinted.raw -ff HanaMinC.features -o HanaMinC.otf
 
 <!--
 HanaMinAX, HanaMinBX can also be created like the above operations.
