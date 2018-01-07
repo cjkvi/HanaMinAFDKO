@@ -26,20 +26,20 @@ ideographs and related characters.
 3. CJK Unified Ideograph Extension-B,C,D,E,F (U+20000 to U+2EBE0)
 4. CJK Compabilitiy Ideographs (U+F900 to U+FAD9)
 5. CJK Compabilitiy Ideographs Supplement (U+2F800 to U+2FA1D)
-6. Ideographic Variations (Adobe-Japan1 and Hanyo-Denshi)
+6. Ideographic Variations (Adobe-Japan1, Hanyo-Denshi, etc)
 7. Standard Variations
 8. Kana, Kanbun, related punctuations and their vertical forms.
 9. Localized glyphs for specific Asian regions.
 10. Ligatures, etc.
 
-It consists of two fonts, HanaMinA and HanaMinB, which covers BMP and
-SIP respectively. For details of supported features, you can use "spot
--Proof" command in AFDKO toolkit.
+It consists of three fonts, HanaMinA HanaMinB and HanaMinC, which
+covers BMP, Extension B and the rest Ideographs respectively. For
+details of supported features, you can use "spot -Proof" command in
+AFDKO toolkit.
 
 ### Font Families
 
-There are currently four font families. Among them, AX and BX fonts
-are not recommended for casual use.
+There are currently three font families.
 
 1. Hanazono Mincho A :: This mainly covers BMP Ideographs.
 2. Hanazono Mincho B :: This mainly covers Extension B Ideographs.
