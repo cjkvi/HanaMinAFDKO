@@ -88,24 +88,16 @@ directory to $PATH. Suppose $AFDKO is
 commands to create the fonts. (Please keep in mind that it may take
 long time to build the fonts.)
 
+    tx -t1 HanaMinA.svg HanaMinA.pfa >>HanaMinA.log 2>>HanaMinA.err
+    checkOutlines -e -k -O -x HanaMinA.pfa >/dev/null 2>>HanaMinA.err
     mergeFonts -cid HanaMinA.cidinfo HanaMinA.raw HanaMinA.cidmap HanaMinA.pfa
     perl $AFDKO/hintcidfont.pl hintparam.txt < HanaMinA.raw > HanaMinA.hinted.raw
     autohint -r -q HanaMinA.hinted.raw
     makeotf -newNameID4 -mf HanaMinA.fmndb -cs 1 -ci HanaMinA.ivs -ch HanaMinA.cmap \
         -f HanaMinA.hinted.raw -ff HanaMinA.features -o HanaMinA.otf
 
-    mergeFonts -cid HanaMinB.cidinfo HanaMinB.raw HanaMinB.cidmap HanaMinB.pfa
-    perl $AFDKO/hintcidfont.pl hintparam.txt < HanaMinB.raw > HanaMinB.hinted.raw
-    autohint -r -q HanaMinB.hinted.raw
-    makeotf -newNameID4 -mf HanaMinB.fmndb -cs 1 -ci HanaMinB.ivs -ch HanaMinB.cmap \
-        -f HanaMinB.hinted.raw -ff HanaMinB.features -o HanaMinB.otf
 
-    mergeFonts -cid HanaMinC.cidinfo HanaMinC.raw HanaMinC.cidmap HanaMinC.pfa
-    perl $AFDKO/hintcidfont.pl hintparam.txt < HanaMinC.raw > HanaMinC.hinted.raw
-    autohint -r -q HanaMinC.hinted.raw
-    makeotf -newNameID4 -mf HanaMinC.fmndb -cs 1 -ci HanaMinC.ivs -ch HanaMinC.cmap \
-        -f HanaMinC.hinted.raw -ff HanaMinC.features -o HanaMinC.otf
-
+HanaMinB, HanaMinC can also be created like the above operations.
 <!--
 HanaMinAX, HanaMinBX can also be created like the above operations.
 -->
