@@ -74,9 +74,9 @@ Macintosh and Linux.
 
 This repository provides pre-built data for the font. Glyph data is
 provided as compressed
-[Type-1](https://partners.adobe.com/public/developer/en/font/T1_SPEC.PDF)
+[SVG Font](https://www.w3.org/TR/SVG/fonts.html)
 format. This is due to the limitation of GitHub to accept only less
-than 100M byte file size. (Uncompressed glyph data will exceed 120M
+than 100M byte file size. (Uncompressed glyph data would exceed 120M
 bytes.) To examine actual glyph data, you can convert the data to
 [UFO](http://unifiedfontobject.org/), PDF or
 [SVG Font](http://www.w3.org/TR/SVG/fonts.html) format by AFDKO *tx*
@@ -84,7 +84,7 @@ command.
 
 To build the fonts, you need to install AFDKO and put their command
 directory to $PATH. Suppose $AFDKO is
-"/FDK/Tools/SharedData/FDKScripts" directory, run the following
+"$USER/FDK/Tools/SharedData/FDKScripts" directory, run the following
 commands to create the fonts. (Please keep in mind that it may take
 long time to build the fonts.)
 
