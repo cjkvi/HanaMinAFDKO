@@ -32,7 +32,7 @@ ideographs and related characters.
 9. Localized glyphs for specific Asian regions.
 10. Ligatures, etc.
 
-It consists of three fonts, HanaMinA HanaMinB and HanaMinC, which
+It consists of three fonts, HanaMinA, HanaMinB and HanaMinC, which
 covers BMP, Extension B and the rest Ideographs respectively. For
 details of supported features, you can use "spot -Proof" command in
 AFDKO toolkit.
@@ -72,19 +72,18 @@ Macintosh and Linux.
 
 ## Install
 
-This repository provides pre-built data for the font. Glyph data is
-provided as compressed
-[SVG Font](https://www.w3.org/TR/SVG/fonts.html)
-format. This is due to the limitation of GitHub to accept only less
-than 100M byte file size. (Uncompressed glyph data would exceed 120M
-bytes.) To examine actual glyph data, you can convert the data to
-[UFO](http://unifiedfontobject.org/), PDF or
-[SVG Font](http://www.w3.org/TR/SVG/fonts.html) format by AFDKO *tx*
-command.
+Binary file is provided as
+[releases](http://github.com/cjkvi/HanaMinAFDKO/releases). This
+repository provides pre-built data for the font. Glyph data is
+provided as compressed [SVG
+Font](https://www.w3.org/TR/SVG/fonts.html) format. This is due to the
+limitation of GitHub to accept only less than 100M byte file size.
+(Uncompressed glyph data would exceed 120M bytes.) 
 
-To build the fonts, you need to install newest AFDKO from github (as
-of Jan. 2018). For perl scripts, you still need to specify the proper
-git directory to $AFDKO variable, such as
+To build the fonts, you need to install newest [AFDKO from
+github](https://github.com/adobe-type-tools/afdko) (as of Jan. 2018).
+As AFDKO perl scripts are not installed automatically, you still need
+to specify the proper git directory to $AFDKO variable, such as
 "$HOME/.ghq/github.com/adobe-type-tools/afdko/afdko/Tools/SharedData/FDKScripts/".
 
 Then, run the following commands to create the fonts. (Please keep in
