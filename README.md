@@ -82,15 +82,18 @@ bytes.) To examine actual glyph data, you can convert the data to
 [SVG Font](http://www.w3.org/TR/SVG/fonts.html) format by AFDKO *tx*
 command.
 
-To build the fonts, you need to install AFDKO and put their command
-directory to $PATH. Suppose $AFDKO is
-"$USER/FDK/Tools/SharedData/FDKScripts" directory, run the following
-commands to create the fonts. (Please keep in mind that it may take
-long time to build the fonts.)
+To build the fonts, you need to install newest AFDKO from github (as
+of Jan. 2018). For perl scripts, you still need to specify the proper
+git directory to $AFDKO variable, such as
+"$HOME/.ghq/github.com/adobe-type-tools/afdko/afdko/Tools/SharedData/FDKScripts/".
 
+Then, run the following commands to create the fonts. (Please keep in
+mind that it may take long time to build the fonts.)
+
+    unxz HanaMinA.svg.xz
     tx -t1 HanaMinA.svg HanaMinA.pfa >>HanaMinA.log 2>>HanaMinA.err
+    mergeFonts -cid HanaMinA.cidinfo HanaMinA.raw HanaMinA.cidmap HanaMinA.pfa >>HanaMinA.log 2>>HanaMinA.err
     checkOutlines -e -k -O -x HanaMinA.pfa >/dev/null 2>>HanaMinA.err
-    mergeFonts -cid HanaMinA.cidinfo HanaMinA.raw HanaMinA.cidmap HanaMinA.pfa
     perl $AFDKO/hintcidfont.pl hintparam.txt < HanaMinA.raw > HanaMinA.hinted.raw
     autohint -r -q HanaMinA.hinted.raw
     makeotf -newNameID4 -mf HanaMinA.fmndb -cs 1 -ci HanaMinA.ivs -ch HanaMinA.cmap \
