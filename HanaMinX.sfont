@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PosingFont SYSTEM "file://localhost/System/Library/DTDs/SplicedFont.dtd">
+<PosingFont name="HanaMinX" version="1.0">
+	<Name type="0" string="Copyright 2002-2018 GlyphWiki Project. All Rights Reserved." language="en"/>
+	<Name type="1" string="Hanazono Mincho" language="en"/>
+	<Name type="2" string="Regular" language="en"/>
+	<Name type="3" string="8.021;UKWN;HanaMin" language="en"/>
+	<Name type="4" string="Hanazono Mincho" language="en"/>
+	<Name type="8" string="GlyphWiki" language="en"/>
+	<Components>
+		<ComponentDef name="HanaMinAX">
+			<UnicodeCharSet uset="[[\u0000-\u4DFF][\uA000-\uD7FF][\uE000-\uFFFD]]" />
+		</ComponentDef>
+		<ComponentDef name="HanaMinUX">
+			<UnicodeCharSet uset="[\u4E00-\u9FFF]" />
+		</ComponentDef>
+		<ComponentDef name="HanaMinBX">
+			<UnicodeCharSet uset="[\u20000-\u2A6D6]" />
+		</ComponentDef>
+		<ComponentDef name="HanaMinCX">
+			<UnicodeCharSet uset="[\u2A700-\u2FFFD]" />
+		</ComponentDef>
+	</Components>
+</PosingFont>

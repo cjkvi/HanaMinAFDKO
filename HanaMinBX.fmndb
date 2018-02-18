@@ -1,0 +1,10 @@
+[HanaMinBX]
+	f=3,1,0x411,\82b1\5712\660e\671d BX
+	s=3,1,0x411,Regular
+	l=3,1,0x411,\82b1\5712\660e\671d BX Regular
+        f=1,1,11,\89\d4\89\80\96\be\92\a9 BX
+        s=1,1,11,Regular
+        l=1,1,11,\89\d4\89\80\96\be\92\a9 BX Regular
+	f=Hanazono Mincho BX
+	s=Regular
+	l=Hanazono Mincho BX Regular
