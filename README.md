@@ -117,3 +117,111 @@ License follows [GlyphWiki license](http://glyphwiki.org/license.html).
 ## Author
 
 - [kawabata](https://github.com/kawabata)
+
+## Glyphs (including aliases)
+
+| |HanaMinA|HanaMinAX|HanaMinUX|HanaMinB|HanaMinBX|HanaMinC|HanaMinCX|HanaMinI|
+|Basic Latin|165|410|410|165|410|165|410|165|
+|Latin-1 Supplement|132|225|0|0|0|0|0|0|
+|Latin Extended-A|0|205|0|0|0|0|0|0|
+|Latin Extended-B|0|295|0|0|0|0|0|0|
+|IPA Extensions|0|180|0|0|0|0|0|0|
+|Spacing Modifier Letters|0|94|0|0|0|0|0|0|
+|Combining Diacritical Marks|0|90|0|0|0|0|0|0|
+|Greek and Coptic|0|129|0|0|0|0|0|0|
+|Cyrillic|0|265|0|0|0|0|0|0|
+|Cyrillic Supplement|0|48|0|0|0|0|0|0|
+|Hangul Jamo|0|992|0|0|0|0|0|0|
+|Cyrillic Extended-C|0|9|0|0|0|0|0|0|
+|Phonetic Extensions|0|132|0|0|0|0|0|0|
+|Phonetic Extensions Supplement|0|67|0|0|0|0|0|0|
+|Combining Diacritical Marks Supplement|0|40|0|0|0|0|0|0|
+|Latin Extended Additional|0|327|0|0|0|0|0|0|
+|Greek Extended|0|233|0|0|0|0|0|0|
+|General Punctuation|94|97|97|94|97|94|97|94|
+|Superscripts and Subscripts|0|42|0|0|0|0|0|0|
+|Currency Symbols|0|34|0|0|0|0|0|0|
+|Combining Diacritical Marks for Symbols|0|22|0|0|0|0|0|0|
+|Letterlike Symbols|0|71|0|0|0|0|0|0|
+|Number Forms|0|105|0|0|0|0|0|0|
+|Arrows|0|89|0|0|0|0|0|0|
+|Mathematical Operators|0|325|0|0|0|0|0|0|
+|Miscellaneous Technical|0|193|0|0|0|0|0|0|
+|Control Pictures|0|39|0|0|0|0|0|0|
+|Optical Character Recognition|0|1|0|0|0|0|0|0|
+|Enclosed Alphanumerics|160|160|0|0|0|0|0|0|
+|Box Drawing|256|256|0|0|0|0|0|0|
+|Block Elements|0|64|0|0|0|0|0|0|
+|Geometric Shapes|104|105|0|0|0|0|0|0|
+|Miscellaneous Symbols|0|180|0|0|0|0|0|0|
+|Dingbats|0|68|0|0|0|0|0|0|
+|Miscellaneous Mathematical Symbols-A|0|40|0|0|0|0|0|0|
+|Supplemental Arrows-A|0|13|0|0|0|0|0|0|
+|Braille Patterns|0|320|0|0|0|0|0|0|
+|Supplemental Arrows-B|0|93|0|0|0|0|0|0|
+|Miscellaneous Mathematical Symbols-B|0|53|0|0|0|0|0|0|
+|Supplemental Mathematical Operators|0|134|0|0|0|0|0|0|
+|Miscellaneous Symbols and Arrows|0|99|0|0|0|0|0|0|
+|Latin Extended-C|0|38|0|0|0|0|0|0|
+|Cyrillic Extended-A|0|31|0|0|0|0|0|0|
+|Supplemental Punctuation|0|27|0|0|0|0|0|0|
+|CJK Radicals Supplement|115|127|0|0|0|0|0|0|
+|Kangxi Radicals|214|214|0|0|0|0|0|0|
+|Ideographic Description Characters|12|12|12|12|12|12|12|23665|
+|CJK Symbols and Punctuation|111|132|0|0|0|0|0|0|
+|Hiragana|284|398|398|0|0|0|0|0|
+|Katakana|191|315|315|0|0|0|0|0|
+|Bopomofo|43|45|0|0|0|0|0|0|
+|Hangul Compatibility Jamo|94|96|0|0|0|0|0|0|
+|Kanbun|32|36|0|0|0|0|0|0|
+|Bopomofo Extended|27|27|0|0|0|0|0|0|
+|CJK Strokes|44|47|0|0|0|0|0|0|
+|Katakana Phonetic Extensions|32|64|0|0|0|0|0|0|
+|Enclosed CJK Letters and Months|254|286|0|0|0|0|0|0|
+|CJK Compatibility|350|419|0|0|0|0|0|0|
+|CJK Unified Ideographs Extension A|8640|9592|0|0|0|0|0|0|
+|Yijing Hexagram Symbols|64|64|0|0|0|0|0|0|
+|CJK Unified Ideographs|61126|0|71494|0|0|0|0|0|
+|Cyrillic Extended-B|0|92|0|0|0|0|0|0|
+|Modifier Tone Letters|0|33|0|0|0|0|0|0|
+|Latin Extended-D|0|160|0|0|0|0|0|0|
+|Hangul Jamo Extended-A|0|36|0|0|0|0|0|0|
+|Latin Extended-E|0|54|0|0|0|0|0|0|
+|Hangul Syllables|0|6515|0|0|0|0|0|0|
+|Hangul Jamo Extended-B|0|72|0|0|0|0|0|0|
+|Private Use Area|0|1402|0|0|0|0|0|0|
+|CJK Compatibility Ideographs|556|582|0|0|0|0|0|0|
+|Alphabetic Presentation Forms|0|8|0|0|0|0|0|0|
+|Variation Selectors|0|16|0|0|0|0|0|0|
+|Vertical Forms|0|12|0|0|0|0|0|0|
+|Combining Half Marks|0|14|0|0|0|0|0|0|
+|CJK Compatibility Forms|0|36|0|0|0|0|0|0|
+|Halfwidth and Fullwidth Forms|0|259|0|0|0|0|0|0|
+|Specials|0|7|0|0|0|0|0|0|
+|Kana Supplement|0|160|0|0|0|0|0|0|
+|Kana Extended-A|0|16|0|0|0|0|0|0|
+|Tai Xuan Jing Symbols|0|87|0|0|0|0|0|0|
+|Counting Rod Numerals|0|27|0|0|0|0|0|0|
+|Mathematical Alphanumeric Symbols|0|581|0|0|0|0|0|0|
+|Mahjong Tiles|0|50|0|0|0|0|0|0|
+|Domino Tiles|0|100|0|0|0|0|0|0|
+|Playing Cards|0|82|0|0|0|0|0|0|
+|Enclosed Alphanumeric Supplement|0|191|0|0|0|0|0|0|
+|Enclosed Ideographic Supplement|0|84|0|0|0|0|0|0|
+|Miscellaneous Symbols and Pictographs|0|158|0|0|0|0|0|0|
+|Emoticons|0|27|0|0|0|0|0|0|
+|Ornamental Dingbats|0|11|0|0|0|0|0|0|
+|Transport and Map Symbols|0|8|0|0|0|0|0|0|
+|Alchemical Symbols|0|21|0|0|0|0|0|0|
+|Geometric Shapes Extended|0|5|0|0|0|0|0|0|
+|Supplemental Arrows-C|0|5|0|0|0|0|0|0|
+|Supplemental Symbols and Pictographs|0|5|0|0|0|0|0|0|
+|CJK Unified Ideographs Extension B|0|0|0|47726|52060|0|0|0|
+|CJK Unified Ideographs Extension C|0|0|0|0|0|4796|5350|0|
+|CJK Unified Ideographs Extension D|0|0|0|0|0|406|488|0|
+|CJK Unified Ideographs Extension E|0|0|0|0|0|6446|6755|0|
+|CJK Unified Ideographs Extension F|0|0|0|0|0|7913|8420|0|
+|CJK Compatibility Ideographs Supplement|0|0|0|0|0|553|561|0|
+|Variation Selectors Supplement|0|0|0|0|0|119|119|0|
+|total|73100|29230|72726|47997|52579|20504|22212|23924|
+|Glyphs|45860|27902|45283|46355|50663|19689|21174|28746|
