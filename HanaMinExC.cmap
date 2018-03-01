@@ -1,0 +1,190 @@
+%!PS-Adobe-3.0 Resource-CMap
+%%DocumentNeededResources: ProcSet (CIDInit)
+%%IncludeResource: ProcSet (CIDInit)
+%%BeginResource: CMap (GlyphWiki-UTF32-H)
+%%Title: (GlyphWiki-UTF32-H Adobe Identity 0)
+%%Version: 1.000
+%%Copyright: -----------------------------------------------------------
+%%Copyright: Copyright 1990-2018 Adobe Systems Incorporated.
+%%Copyright: All rights reserved.
+%%Copyright:
+%%Copyright: Redistribution and use in source and binary forms, with or
+%%Copyright: without modification, are permitted provided that the
+%%Copyright: following conditions are met:
+%%Copyright:
+%%Copyright: Redistributions of source code must retain the above
+%%Copyright: copyright notice, this list of conditions and the following
+%%Copyright: disclaimer.
+%%Copyright:
+%%Copyright: Redistributions in binary form must reproduce the above
+%%Copyright: copyright notice, this list of conditions and the following
+%%Copyright: disclaimer in the documentation and/or other materials
+%%Copyright: provided with the distribution. 
+%%Copyright:
+%%Copyright: Neither the name of Adobe Systems Incorporated nor the names
+%%Copyright: of its contributors may be used to endorse or promote
+%%Copyright: products derived from this software without specific prior
+%%Copyright: written permission. 
+%%Copyright:
+%%Copyright: THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+%%Copyright: CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+%%Copyright: INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+%%Copyright: MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+%%Copyright: DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+%%Copyright: CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+%%Copyright: SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+%%Copyright: NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+%%Copyright: LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+%%Copyright: HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+%%Copyright: CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+%%Copyright: OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+%%Copyright: SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+%%Copyright: -----------------------------------------------------------
+%%EndComments
+
+/CIDInit /ProcSet findresource begin
+
+12 dict begin
+
+begincmap
+
+/CIDSystemInfo 3 dict dup begin
+  /Registry (Adobe) def
+  /Ordering (Identity) def
+  /Supplement 0 def
+end def
+
+/CMapName /GlyphWiki-UTF32-H def
+/CMapVersion 1.000 def
+/CMapType 1 def
+
+/WMode 0 def
+
+1 begincodespacerange
+  <00000000> <0010FFFF>
+endcodespacerange
+
+1 beginnotdefrange
+<00000000> <0000001f> 1
+endnotdefrange
+
+17 begincidchar
+<00000255> 129
+<00000283> 130
+<0000030f> 145
+<00000311> 146
+<00000313> 147
+<00000315> 148
+<00000331> 159
+<00000355> 160
+<00000358> 161
+<00000483> 166
+<0000066e> 167
+<0000204b> 225
+<000020de> 242
+<000020e4> 243
+<00003000> 256
+<00003099> 257
+<0000fe00> 258
+endcidchar
+
+90 begincidrange
+<00000000> <0000007f> 1
+<00000291> <00000292> 131
+<00000300> <00000304> 133
+<00000307> <0000030d> 138
+<00000323> <0000032a> 149
+<0000032e> <0000032f> 157
+<0000035d> <0000035e> 162
+<00000360> <00000361> 164
+<00001dc4> <00001dc7> 168
+<0000200d> <00002027> 172
+<00002030> <00002049> 199
+<0000204e> <00002054> 226
+<00002056> <0000205e> 233
+<00002ff0> <00002ffb> 244
+<0002a700> <0002a7ff> 259
+<0002a800> <0002a8ff> 515
+<0002a900> <0002a9ff> 771
+<0002aa00> <0002aaff> 1027
+<0002ab00> <0002abff> 1283
+<0002ac00> <0002acff> 1539
+<0002ad00> <0002adff> 1795
+<0002ae00> <0002aeff> 2051
+<0002af00> <0002afff> 2307
+<0002b000> <0002b0ff> 2563
+<0002b100> <0002b1ff> 2819
+<0002b200> <0002b2ff> 3075
+<0002b300> <0002b3ff> 3331
+<0002b400> <0002b4ff> 3587
+<0002b500> <0002b5ff> 3843
+<0002b600> <0002b6ff> 4099
+<0002b700> <0002b734> 4355
+<0002b740> <0002b7ff> 4408
+<0002b800> <0002b81d> 4600
+<0002b820> <0002b8ff> 4630
+<0002b900> <0002b9ff> 4854
+<0002ba00> <0002baff> 5110
+<0002bb00> <0002bbff> 5366
+<0002bc00> <0002bcff> 5622
+<0002bd00> <0002bdff> 5878
+<0002be00> <0002beff> 6134
+<0002bf00> <0002bfff> 6390
+<0002c000> <0002c0ff> 6646
+<0002c100> <0002c1ff> 6902
+<0002c200> <0002c2ff> 7158
+<0002c300> <0002c3ff> 7414
+<0002c400> <0002c4ff> 7670
+<0002c500> <0002c5ff> 7926
+<0002c600> <0002c6ff> 8182
+<0002c700> <0002c7ff> 8438
+<0002c800> <0002c8ff> 8694
+<0002c900> <0002c9ff> 8950
+<0002ca00> <0002caff> 9206
+<0002cb00> <0002cbff> 9462
+<0002cc00> <0002ccff> 9718
+<0002cd00> <0002cdff> 9974
+<0002ce00> <0002cea1> 10230
+<0002ceb0> <0002ceff> 10392
+<0002cf00> <0002cfff> 10472
+<0002d000> <0002d0ff> 10728
+<0002d100> <0002d1ff> 10984
+<0002d200> <0002d2ff> 11240
+<0002d300> <0002d3ff> 11496
+<0002d400> <0002d4ff> 11752
+<0002d500> <0002d5ff> 12008
+<0002d600> <0002d6ff> 12264
+<0002d700> <0002d7ff> 12520
+<0002d800> <0002d8ff> 12776
+<0002d900> <0002d9ff> 13032
+<0002da00> <0002daff> 13288
+<0002db00> <0002dbff> 13544
+<0002dc00> <0002dcff> 13800
+<0002dd00> <0002ddff> 14056
+<0002de00> <0002deff> 14312
+<0002df00> <0002dfff> 14568
+<0002e000> <0002e0ff> 14824
+<0002e100> <0002e1ff> 15080
+<0002e200> <0002e2ff> 15336
+<0002e300> <0002e3ff> 15592
+<0002e400> <0002e4ff> 15848
+<0002e500> <0002e5ff> 16104
+<0002e600> <0002e6ff> 16360
+<0002e700> <0002e7ff> 16616
+<0002e800> <0002e8ff> 16872
+<0002e900> <0002e9ff> 17128
+<0002ea00> <0002eaff> 17384
+<0002eb00> <0002ebe0> 17640
+<0002f800> <0002f8ff> 17865
+<0002f900> <0002f9ff> 18121
+<0002fa00> <0002fa1d> 18377
+<000e0100> <000e0176> 18407
+endcidrange
+
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+
+%%EndResource
+%%EOF

@@ -1,10 +1,10 @@
 [HanaMinC]
-	f=3,1,0x411,\82b1\5712\660e\671d C
+	f=3,1,0x411,\82b1\5712\660e\671d\0020\0043
 	s=3,1,0x411,Regular
-	l=3,1,0x411,\82b1\5712\660e\671d C Regular
-        f=1,1,11,\89\d4\89\80\96\be\92\a9 C
+	l=3,1,0x411,\82b1\5712\660e\671d\0020\0043 Regular
+        f=1,1,11,\89\d4\89\80\96\be\92\a9\20\43
         s=1,1,11,Regular
-        l=1,1,11,\89\d4\89\80\96\be\92\a9 C Regular
+        l=1,1,11,\89\d4\89\80\96\be\92\a9\20\43 Regular
 	f=Hanazono Mincho C
 	s=Regular
 	l=Hanazono Mincho C Regular

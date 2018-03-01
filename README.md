@@ -36,21 +36,22 @@ created by GlyphWiki system.
 
 There are currently three font families.
 
-1. Regular Hanazono Mincho Series
+1. Regular Hanazono Mincho Series (HanaMin)
   - HanaMinA :: This mainly covers BMP Ideographs.
   - HanaMinB :: This mainly covers Extension B Ideographs.
   - HanaMinC :: This mainly covers Extension C to up and SIP Compatibility Ideographs.
+  - HanaMinI :: This mainly covers IDS fglyphs (via GSUB 'ccmp' feature).
   - HanaMin.sfont :: This is CFR (Composite Font Representation) of above fonts.
 
-2. Extended Hanazono Mincho Series
-  - HanaMinUX :: This mainly covers URO Ideographs.
-  - HanaMinAX :: This mainly covers Ideographs Extension A and various other characters.
-  - HanaMinBX :: This mainly covers Ideographs Extension B
-  - HanaMinCX :: This mainly covers Extension C to up and SIP Compatibility Ideographs.
-  - HanaMinX.sfont :: This is CFR (Composite Font Representation) of above fonts.
+2. Extended Hanazono Mincho Series (HanaMinEx)
+  - HanaMinExA1 :: This mainly covers URO Ideographs.
+  - HanaMinExA2 :: This mainly covers Ideographs Extension A and various other characters.
+  - HanaMinExB :: This mainly covers Ideographs Extension B
+  - HanaMinExC :: This mainly covers Extension C to up and SIP Compatibility Ideographs.
+  - HanaMinEX.sfont :: This is CFR (Composite Font Representation) of above fonts.
 
 Extended version includes `uXXXX-var-YYY` and `uXXXX-itaiji-YYY`
-variations as GSUB features.
+variations as GSUB 'salt' and 'trad' features.
 
 ## Sample Screenshot
 
@@ -100,10 +101,7 @@ mind that it may take long time to build the fonts.)
         -f HanaMinA.hinted.raw -ff HanaMinA.features -o HanaMinA.otf
 
 
-HanaMinB, HanaMinC can also be created like the above operations.
-<!--
-HanaMinAX, HanaMinBX can also be created like the above operations.
--->
+HanaMinB, HanaMinC, etc. can also be created like the above operations.
 
 ## Contribution
 
