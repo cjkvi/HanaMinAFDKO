@@ -82,7 +82,7 @@ limitation of GitHub to accept only less than 100M byte file size.
 (Uncompressed glyph data would exceed 120M bytes.) 
 
 To build the fonts, you need to install newest [AFDKO from
-github](https://github.com/adobe-type-tools/afdko) (as of Jan. 2018)
+github](https://github.com/adobe-type-tools/afdko) (as of 2.8.4)
 and [Adobe Type Tools / Perl
 Scripts](https://github.com/adobe-type-tools/perl-scripts). Then put
 the directory of perl scripts to $ADOBE_PERL variable, such as
@@ -93,8 +93,8 @@ mind that it may take long time to build the fonts.)
 
     unxz HanaMinA.svg.xz
     tx -t1 HanaMinA.svg HanaMinA.pfa >>HanaMinA.log 2>>HanaMinA.err
-    mergeFonts -cid HanaMinA.cidinfo HanaMinA.raw HanaMinA.cidmap HanaMinA.pfa >>HanaMinA.log 2>>HanaMinA.err
-    # checkOutlines -e -k -O -x HanaMinA.pfa >/dev/null 2>>HanaMinA.err
+    mergefonts -cid HanaMinA.cidinfo HanaMinA.raw HanaMinA.cidmap HanaMinA.pfa >>HanaMinA.log 2>>HanaMinA.err
+    # checkoutlines -e -k -O -x HanaMinA.pfa >/dev/null 2>>HanaMinA.err
     perl $(ADOBE_PERL)/hintcidfont.pl hintparam.txt < HanaMinA.raw > HanaMinA.hinted.raw
     autohint -r -q HanaMinA.hinted.raw
     makeotf -newNameID4 -mf HanaMinA.fmndb -cs 1 -ci HanaMinA.ivs -ch HanaMinA.cmap \
